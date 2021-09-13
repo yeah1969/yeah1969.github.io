@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>论域名</title>
+    <url>/2021/09/12/%E8%AE%BA%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<p>快快乐乐的去阿里云买了个域名，解析一直有问题，研究了大半天发现是github page custum domain里面写错了，怎么一不小心买了个yaeh的域名……麻了。</p>
+]]></content>
+      <tags>
+        <tag>-日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于MARKDOWN文档的使用方法</title>
     <url>/2021/09/09/%E5%85%B3%E4%BA%8EMARKDOWN%E6%96%87%E6%A1%A3%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<hr>
-<h1 id="md文档格式："><a href="#md文档格式：" class="headerlink" title=".md文档格式："></a>.md文档格式：</h1><hr>
+<h1 id="md文档格式："><a href="#md文档格式：" class="headerlink" title=".md文档格式："></a>.md文档格式：</h1><span id="more"></span>
 <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre><code>首先是关于标题的格式:
 一级标题是一个 &lt;#+空格&gt;，多级标题就是多个#。
 </code></pre>
@@ -95,15 +104,6 @@
 <h1 id="收工"><a href="#收工" class="headerlink" title="收工"></a><strong>收工</strong></h1>]]></content>
       <tags>
         <tag>-笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论域名</title>
-    <url>/2021/09/12/%E8%AE%BA%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<p>快快乐乐的去阿里云买了个域名，解析一直有问题，研究了大半天发现是github page custum domain里面写错了，怎么一不小心买了个yaeh的域名……麻了。</p>
-]]></content>
-      <tags>
-        <tag>-日常</tag>
       </tags>
   </entry>
 </search>
