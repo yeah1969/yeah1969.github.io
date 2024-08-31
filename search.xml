@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello，随便看吧！</title>
+    <url>/2024/08/31/Hello/</url>
+    <content><![CDATA[<h1 id="重新捡起来更新了"><a href="#重新捡起来更新了" class="headerlink" title="重新捡起来更新了"></a>重新捡起来更新了</h1><p>上次更新还在2022年，之前的图床都已经消失了，笔记也没了，令人感叹，坚持记录笔记永远都不晚！Markdown还是很性感的！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于MARKDOWN文档的使用方法</title>
+    <url>/2024/08/31/%E5%85%B3%E4%BA%8EMARKDOWN%E6%96%87%E6%A1%A3%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+<h1 id="md文档格式："><a href="#md文档格式：" class="headerlink" title=".md文档格式："></a><a href="#md%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F%EF%BC%9A" title=".md文档格式："></a>.md文档格式：</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a><a href="#%E6%A0%87%E9%A2%98" title="标题"></a>标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">首先是关于标题的格式:</span><br><span class="line">一级标题是一个 &lt;#+空格&gt;，多级标题就是多个#。</span><br></pre></td></tr></table></figure>
+
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a><a href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a><a href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a><a href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a><a href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98" title="六级标题"></a>六级标题</h6><hr>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a><a href="#%E5%AD%97%E4%BD%93" title="字体"></a>字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">字体分别有</span><br><span class="line">&lt;**加粗**&gt;</span><br><span class="line">&lt;*倾斜*&gt;</span><br><span class="line">&lt;***倾斜加粗***&gt;</span><br><span class="line">&lt;~~删除线~~&gt;</span><br></pre></td></tr></table></figure>
+
+<p>使用方法分别为：</p>
+<p><strong>加粗文字</strong></p>
+<p><em>倾斜文字</em></p>
+<p><em><strong>加粗倾斜文字</strong></em></p>
+<p>删除线文字</p>
+<hr>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a><a href="#%E5%BC%95%E7%94%A8" title="引用"></a>引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">引用的使用方法很简单，只是在要设定为引用格式的文字之前添加一个&gt;就好，并且引用也是可以嵌套的。</span><br><span class="line">&gt; 一级引用</span><br><span class="line">&gt;&gt; 二级引用</span><br><span class="line">&gt;&gt;&gt; 三级引用</span><br></pre></td></tr></table></figure>
+
+<p>示例：</p>
+<blockquote>
+<p>一级引用</p>
+<blockquote>
+<p>二级引用</p>
+<blockquote>
+<p>三级引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a><a href="#%E5%88%86%E5%89%B2%E7%BA%BF" title="分割线"></a>分割线</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用方法可以用-,_,*六个，效果是一样的。</span><br><span class="line">示例：</span><br></pre></td></tr></table></figure>
+
+<hr>
+<hr>
+<hr>
+<hr>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a><a href="#%E8%B6%85%E9%93%BE%E6%8E%A5" title="超链接"></a>超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">直接上语法：</span><br><span class="line">[超链接名](地址“title”)</span><br></pre></td></tr></table></figure>
+
+<p>示例：</p>
+<p><a href="http://www.baidu.com/">百度</a></p>
+<hr>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a><a href="#%E5%88%97%E8%A1%A8" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">首先分为无序列表，有序列表以及嵌套列表</span><br><span class="line">无序列表的使用方法可以在文字前加-，+，*</span><br><span class="line">有序列表的使用方法为数字加. 同样需要间隔一个空格。</span><br><span class="line">嵌套列表在上一级和下一级之间敲三个空格就好了</span><br><span class="line">效果如下：</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>内容</p>
+</li>
+<li><p>内容</p>
+</li>
+<li><p>内容</p>
+</li>
+</ul>
+<ol>
+<li>内容</li>
+<li>内容</li>
+<li>内容</li>
+</ol>
+<ul>
+<li>标题<ul>
+<li>内容<ul>
+<li>内容</li>
+<li>内容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a><a href="#%E8%A1%A8%E6%A0%BC" title="表格"></a>表格</h2><p>太懒不做</p>
+<hr>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a><a href="#%E4%BB%A3%E7%A0%81" title="代码"></a>代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">语法是用``套起来，单行代码用`代码`，多行则为三个。</span><br></pre></td></tr></table></figure>
+
+<p>示例：</p>
+<p><code>public static viod main</code></p>
+<table><tbody><tr><td class="code"><pre><span class="line">system out printl("");</span><br></pre></td></tr></tbody></table>
+
+<hr>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a><a href="#%E5%9B%BE%E7%89%87" title="图片"></a>图片</h2><p>图片的插入语法为：</p>
+<p><code>![](img.jpg)</code></p>
+<hr>
+<h1 id="收工"><a href="#收工" class="headerlink" title="收工"></a><a href="#%E6%94%B6%E5%B7%A5" title="收工"></a><strong>收工</strong></h1>]]></content>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+</search>
